@@ -1101,6 +1101,7 @@ section .container {
   color: #000;
   transition: 0.4s;
   border-radius: 4px;
+  font-weight: 700;
 }
 
 
