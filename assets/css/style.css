@@ -105,6 +105,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50%;
   width: 40px;
   height: 40px;
+  transition: all ease-in-out 0.3s;
 }
 
 #header .social-links a:hover {
@@ -657,6 +658,7 @@ section .container {
   background: rgba(204, 204, 204, 0.1);
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
+  width: 100%;
 }
 
 .services .icon-box .icon {
