@@ -109,6 +109,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header .social-links a:hover {
   background: #00e8ff;
+  color: #000;
 }
 
 @media (max-width: 992px) {
@@ -355,7 +356,7 @@ section .container {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #4ceb95;
+  background: #00e8ff;
   margin: 4px 10px;
 }
 
@@ -720,11 +721,11 @@ section .container {
 }
 
 .services .icon-box:hover .icon::before {
-  background: #35e888;
+  background: #000;
 }
 
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
-  color: #fff;
+  color: #000;
 }
 
 /*--------------------------------------------------------------
@@ -760,6 +761,7 @@ section .container {
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   background: #00e8ff;
+  color: #000;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1096,14 +1098,11 @@ section .container {
   background: #00e8ff;
   border: 0;
   padding: 10px 30px;
-  color: #fff;
+  color: #000;
   transition: 0.4s;
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type="submit"]:hover {
-  background: #15bb62;
-}
 
 @-webkit-keyframes animate-loading {
   0% {
